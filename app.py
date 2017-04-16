@@ -36,7 +36,7 @@ def makeWebhookResult(req):
 
     cost = {'Heidelberg':'https://www.facebook.com/events/275451326230006/', 'Mannheim':'https://www.facebook.com/events/130888564106810/', 'Sinsheim':'https://www.facebook.com/events/1256470557772831/', 'Ludwigshafen':'https://www.facebook.com/events/1334524383275686/', 'Frankfurt':'https://www.facebook.com/events/1716228295354755/'}
 
-    speech = "Eine passende Veranstaltung in " + zone + " waere " + str(cost[zone])."
+    speech = "The cost of shipping to " + zone + " is " + str(cost[zone]) + " euros."
 
     print("Response:")
     print(speech)
